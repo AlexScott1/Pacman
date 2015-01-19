@@ -1,0 +1,45 @@
+﻿Build started 13/01/2014 14:48:03.
+     1>Project "C:\Users\Alex\Desktop\Pacman Final\Program\Pacman\Pacman.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Pacman.cpp
+         Pacman.cpp
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(9): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(67): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(150): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(160): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(168): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(169): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(179): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(190): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(196): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(321): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(326): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(378): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(540): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(541): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(545): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(546): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(580): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(588): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(596): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(604): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(621): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(627): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(633): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(639): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(662): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(696): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(697): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(708): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(709): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(797): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\desktop\pacman final\program\pacman\pacman.cpp(821): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alex\Desktop\Pacman Final\Program\Debug\Pacman.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Alex\Desktop\Pacman Final\Program\Debug\Pacman.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alex\Desktop\Pacman Final\Program\Debug\Pacman.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Pacman.obj
+         Pacman.vcxproj -> C:\Users\Alex\Desktop\Pacman Final\Program\Debug\Pacman.exe
+     1>Done Building Project "C:\Users\Alex\Desktop\Pacman Final\Program\Pacman\Pacman.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.00
